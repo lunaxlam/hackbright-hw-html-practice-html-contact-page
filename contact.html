@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ubermelon Corp.</title>
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" 
+    crossorigin="anonymous"
+  />
+</head>
+<body class="bg-light">
+  <div class="container">
+    <header class="row p-5 text-center">
+      <div class="col">
+        <div class="logo">
+          <img src="static/images/new_logo.png">
+        </div>
+
+        <h1 class="py-3">Contact Us</h1>
+        <p class="lead">
+          We would love to hear from you!
+        </p>
+      </div>
+    </header>
+
+    <main class="row mx-5 py-4">
+      <div class="col-8 mx-auto p-3 contact-form">
+        <form>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="first-name">First name</label>
+              <input id="first-name" class="form-control" type="text">
+            </div>
+
+            <div class="col-md-6 mb-3">
+              <label for="last-name">Last name</label>
+              <input id="last-name" class="form-control" type="text">
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="email">Email</label>
+            <input id="email" class="form-control" type="email">
+          </div>
+
+          <div class="mb-3">
+            <label for="complaint" class="lead">Please share your comments and feedback:</label>
+            <textarea id="complaint" class="form-control" rows="4">
+            </textarea>
+          </div>
+
+          <hr class="my-4">
+          <button class="mb-3 btn btn-primary btn-lg btn-block">Submit</button>
+        </form>
+
+      </div>
+    </main>
+  </div>
+
+  <footer class="bg-dark py-5 container-fluid">
+    <p class="text-light">© Ubermelon</p>
+  </footer>
+</body>
+</html>
